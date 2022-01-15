@@ -1,0 +1,72 @@
+.pageTitle {
+    font-size:clamp(1.8rem, 2.5rem, 4rem);
+    font-weight:900;
+    letter-spacing:0rem;
+    padding:0px;
+    margin-bottom:-10px;
+    color:#00558c;
+    max-width:100%
+  }
+  
+  .nameAndTitle {
+            font-size:clamp(1.3rem, 3rem, 1rem);
+    padding:5px;
+    font-weight:700;
+    max-width:100%;
+  }
+  
+  .pageSubtitle {
+    padding:5px;
+  }
+  
+  .descriptionBox {
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom:-10px;
+  }
+  
+  .gv-widget-search {
+    display:flex;
+  }
+  
+  
+  .gv-search { 
+    display:flex;
+    justify-content: left;
+    gap:15px;
+    align-items: start;
+  }
+  
+  .gv-search label {
+    padding-top:5px;
+    font-size:15px;
+    font-weight:bold;
+  }
+  
+  .gv-search-box input[type=search] {
+       padding: 6px;
+       font-size: 15px;
+       border-width: 2px;
+       border-color: #15d16c;
+       background-color: #FFFFFF;
+       border-style: solid;
+       border-radius: 12px;
+       box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  }
+  
+  .gv-search-box:focus input[type=search] {
+    outline:none;
+  }
+  
+  .gv-search-box .gv-search-button {
+            background-color: #15d16c; 
+        border: none;
+        border-radius:10px;
+        color: #ffffff;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+    font-weight:bold;
+    font-size: 1.05rem;
+  }
